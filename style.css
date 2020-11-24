@@ -1,0 +1,625 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #637AB6;
+}
+
+.main_container{
+    width: 1350px;
+    height: 3600px;
+    background-color: black;
+    margin: auto;
+}
+
+/* header part with internal image  1*/
+
+.header_container{
+    width: 1350px;
+    height: 570px;
+}
+
+.main_img{
+    width: 1350px;
+    height: 570px;
+    position: absolute;
+    filter: brightness(30%);
+}
+
+.main_header{
+    width: 1350px;
+    height:60px;
+    position: absolute;
+}
+
+.left_h{
+    width: 200px;
+    height: 43px;
+    float: left;
+    padding-top: 15px;
+    border: 1px solid gray;
+
+}
+
+.center_h{
+    width: 976px;
+    height: 38px;
+    float: left;
+    text-align: right;
+    padding-top: 20px;
+    border: none;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.right_h{
+    width: 168px;
+    height: 38px;
+    float: right ;
+    padding-top: 20px;
+    border: 1px solid gray;
+}
+
+.left_h p,.detail p{
+    display: inline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.center_h a{
+    margin-right: 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right_h a{
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.loc_img{
+    width: 15px;
+    height: 17px;
+}
+
+.login_img{
+    width: 13px;
+    height: 13px;
+    margin-left: 30px;
+}
+
+.img_layer{
+    width: 1350px;
+    height: 490px;
+    position: absolute;
+    margin-top: 60px;
+
+}
+
+
+.form_container{
+    width: 800px;
+    height: 320px;
+    margin: 80px auto;
+}
+
+.left_form{
+    width: 356px;
+    height: 260px;
+    float: left;
+    padding: 30px ;
+}
+
+.right_form{
+    width: 324px;
+    height: 260px;
+    float: right;
+    background-color: whitesmoke ;   
+    padding: 30px;
+}
+
+.qs{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;        
+}
+
+.qs_input{
+    width: 320px;
+    height: 35px;
+    margin-top: 8px;
+    background-color: lightgray;
+    border: none;
+
+}
+.qs_sinput{
+    width: 156px;
+    height: 35px;
+    margin-top: 8px;
+    background-color: lightgray;
+    border: none;
+}
+
+.btn_find{
+    width: 120px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    background-color: red;
+    font-size: 10px;
+    color: white;
+}
+
+::placeholder{
+    font-size: 10px;
+    font-weight: bolder;
+    color: darkslategrey;
+    padding-left: 15px;
+}
+
+.gen_p{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.spe_p{
+    font-size: 12px;
+    color: white;
+}
+
+.left_form a{
+    color: red;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+/* properties selection part 2*/
+
+.icon_container{
+    width: 1350px;
+    height: 270px;
+    position: relative;
+    background-color: white;
+    position: relative;
+}
+
+.col{
+    width: 140px;
+    height: 200px;
+    margin: 35px 0px 35px 130px ;
+    float: left;
+}
+
+.icon_img{
+    width: 70px ;
+    height: 70px;
+}
+
+.col p{
+    color: dimgray;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col h3{
+    font-size: 17px;
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col a{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: crimson;
+}
+
+/* Who we are 3 */
+
+.about_container{
+    width: 1350px;
+    height: 450px;
+    border: none;
+    position: relative;
+}
+.interior_img{
+    width: 1350px;
+    height: 470px;  
+    position: absolute;
+}
+
+.about{
+    width: 650px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    margin: 50px 350px 50px 350px;
+    text-align: center;
+}
+.about h2{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 20;
+
+}
+
+.about p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: dimgray;
+    text-align: center;
+}
+
+.about_box{
+    height: 100px;
+    width: 100%;
+}
+
+.s_box{
+    width: 160px;
+    height: 100px;
+    margin: 0px 28px 0px 28px;
+    float: left;
+}
+
+.s_img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -15px;
+
+}
+
+.s_box p{
+    font-size: 15px;
+    font-weight:bolder;
+    color: gray;
+}
+
+/* properties for sale   */
+
+.p_container{
+    width: 1350px;
+    height: 550px;
+    background-color: white;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+
+.p_img{
+    width: 1000px;
+    height: 400px;
+}
+
+.p_container p{ 
+    font-size: 23px;
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+ /* what out customer says  */
+
+.main_review_container{
+    width: 1350px;
+    height: 400px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.main_review{
+    width: 750px;
+    height: 300px;
+    margin: 50px 300px 50px 300px ;
+    position: absolute;
+    }
+
+.left_review{
+    width: 375px;
+    height: 300px;
+    float: left;
+}
+.right_review{
+    width: 375px;
+    height: 300px;
+    float: right;
+}
+
+.main_review h1{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    color: dimgray;
+}
+
+.review_box{
+    width: 373px;
+    height: 148px;
+    background-color: white;
+    border: none;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.review_box p{
+    margin: 20px 20px 20px 20px;
+    font-size: 17px;
+    color: lightskyblue;
+}
+
+.review_box h3{
+    font-size: 11px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    
+}
+.review_box h4{
+    font-size: 11px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 10px;
+}
+
+.left_review a{
+    color: crimson;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle_bg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:  30px 0px 0px 70px;    
+}
+
+.circle_em{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin:  50px 0px 0px 130px;    
+}
+
+.circle_mz{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 0px 0px 20px 40px;
+}
+
+.circle_wb{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 80px;
+}
+
+.circle_jb{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px 0px 60px 80px ;
+}
+
+.circle_rt{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0px 0px 60px 100px ;
+}
+
+/* collection part */
+
+
+.collection_container{
+    width: 1350px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+}
+
+
+.propery_box_container{
+    width: 850px;
+    height: 250px;
+    margin: 50px auto;
+    
+
+}
+
+.collection_container h1{
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: unset;
+}
+
+.property_box{
+    width: 180px;
+    height: 240px;
+    float: left;
+    margin-left: 22px;
+    border: 1px lightgray solid;
+    text-align: left;
+}
+
+.pb{
+    width: 180px;
+    height: 130px;
+}
+
+.property_box p{
+    font-size: 10px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.property_box h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 0px;
+    color: dimgray;
+}
+.property_box h6{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: -10px;
+    color: gray;
+}
+
+/* <!-- support part --> */
+
+.support{
+    width: 1350px;
+    height: 450px;
+    background-color: red;
+    position: relative;
+}
+
+.end{
+    width: 1350px;
+    height: 450px;
+    position: absolute;
+}
+
+.support_box{
+    width: 390px;
+    height: 300px;
+    position: absolute;
+    background-color: white;
+    margin: 75px 260px 75px 690px;
+    text-align: center;
+}
+
+.support h2{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-weight: normal;
+    color: dimgray;
+}
+
+.support p{
+    font-size: 13px;
+    margin: 0px 50px 0px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: gray;
+}
+
+.support h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: gray;
+}
+
+/* <!-- footer part --> */
+
+.footer{
+    width: 1350px;
+    height: 310px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.top_footer{
+    width: 1350px;
+    height: 270px;
+    background-color: #090D15;
+    float: left;
+}
+
+.footer_box{
+    width: 800px;
+    height: 200px;
+    margin: 35px auto;
+}
+
+.detail{
+    width: 240px;
+    height: 200px;
+    float: left;
+}
+
+.footer_sboxes{
+    width: 120px;
+    height: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+.detail h6{
+    font-size: 12px;
+    color: gray;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slogo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: -10px;
+    border: none;
+}
+
+.footer_sboxes h3{
+    font-size: 17px;
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_sboxes h6{
+    font-size: 10px;
+    color: gray;   
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    margin-top: -13px;
+}
+
+.bottom_footer{
+    width: 1350px;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    float: right;
+    position: relative;
+}
+
+
+.bottom_footer p{
+    font-size: 10px;
+    color: gray;
+    margin-top: 15px;
+}
+
+/* .top{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 1320px;
+    border-radius: 50%;
+} */
